@@ -1,0 +1,85 @@
+body {
+	margin-bottom: 80px;
+	margin-top: 170px;
+}
+
+.h1 {
+	font-size: 63px;
+	font-weight: 300;
+}
+
+.h2 {
+	font-weight: 300;
+}
+
+.h3 {
+	font-size: 20px;
+	font-weight: 300;
+}
+
+h4 {
+	font-weight: 300;
+}
+
+.p {
+	font-weight: 300;
+	font-size: 20px;
+	line-height: 1.4;
+}
+
+.navbar-text {
+	font-size: 12px;
+}
+
+
+.datetime {
+	font-size: 12px;
+	font-weight: 600;
+	margin-bottom: 10px;
+}
+
+.postContent {
+	font-size: 16px;
+	font-weight: 300;
+}
+
+hr {
+	margin-top: 0;
+}
+
+.btn-primary {
+
+}
+
+.main-info-graphic {
+
+}
+
+.logo {
+
+}
+
+.avatar {
+	border-style: solid;
+	border-width: 1px;
+	border-color: #cacaca;
+	margin: 20px 0px 0px;
+}
+
+.error {
+	color: red;
+}
+
+.navbar-inverse {
+	background-color: #3c3c3c;
+}
+
+article {
+	margin-top: 25px;
+	padding: 15px;
+	background-color: #f8f8f8;
+	border-style: solid;
+	border-width: 2px;
+	border-color: #cacaca;
+	border-radius: 4px;	
+}
