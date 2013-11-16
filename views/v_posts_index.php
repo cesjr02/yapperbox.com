@@ -14,9 +14,9 @@
 		
 		<!-- displays 'You posted' for own posts, otherwise displays user's name -->
 		<?php if($post['user_id'] == $user->user_id): ?>
-			<h3 class='h3'>You Yapped:<h3>
+			<h3 class='h3'>You yapped:<h3>
 		<?php else: ?>
-			<h3 class='h3'><?=$post['first_name']?> <?=$post['last_name']?> Yapped:</h3>
+			<h3 class='h3'><?=$post['first_name']?> <?=$post['last_name']?> yapped:</h3>
 		<?php endif; ?>
 		
 			<!-- displays post content -->
