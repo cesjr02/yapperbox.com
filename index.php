@@ -24,11 +24,13 @@
 # Routing
     Router::$routes = array(
     	'/' => '/index',     # default controller when "/" is requested
+    	// custom routes to enable boostrap dropdown menu
     	'/profile' => '/users/profile',
     	'/yap' => '/posts/add',
     	'/users' => '/posts/users',
     	'/signup' => '/users/signup',
     	'/p_add' => '/posts/p_add',
+    	'/unsubscribe' => '/users/unsubscribe',
     	
     );
     
