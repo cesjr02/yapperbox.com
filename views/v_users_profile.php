@@ -29,5 +29,5 @@
 		</form><br>
 	<hr>
 	<h4>Delete Account</h4>
-	<p>Click<a href='/users/unsubscribe/'> here </a>if you wish to delete your account.</p>
+	<p>Click<a href='/unsubscribe'> here </a>if you wish to delete your account.</p>
 </div><!-- end of col -->
