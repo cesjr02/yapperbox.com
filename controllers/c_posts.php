@@ -150,7 +150,7 @@ class posts_controller extends base_controller {
 		DB::instance(DB_NAME)->insert('users_users', $data);
 	
 		// send them back
-		Router::redirect("/users");
+		Router::redirect("/posts/users");
 
 	} 
 
@@ -165,7 +165,7 @@ class posts_controller extends base_controller {
 		DB::instance(DB_NAME)->delete('users_users', $where_condition);
 	
 		// send them back
-		Router::redirect("/users");
+		Router::redirect("/posts/users");
 	
 	} 
 

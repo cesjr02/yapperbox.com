@@ -127,7 +127,7 @@ class users_controller extends base_controller {
 			Email::send($to, $from, $subject, $body, true, '');
 
 			// signup confirm
-			Router::redirect("/profile");
+			Router::redirect("/users/profile");
 		}
 		else {
 			echo $this->template;
@@ -189,7 +189,7 @@ class users_controller extends base_controller {
 			setcookie("token", $token, strtotime('+1 year'), '/');
 
 			// token found, login successful
-			Router::redirect("/profile");
+			Router::redirect("/users/profile/");
 			// echo "You are logged in!";
 		}
 		
@@ -277,7 +277,7 @@ class users_controller extends base_controller {
 		}
 
 		// Redirect back to the profile page
-		router::redirect('/profile'); 
+		router::redirect('/users/profile'); 
 	} 
 	
 
