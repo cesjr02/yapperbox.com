@@ -62,13 +62,13 @@
 						<a href='#' class='dropdown-toggle' data-toggle='dropdown'><?php echo $user->first_name; ?> <?php echo $user->last_name; ?> <b class='caret'></b></a>
 						
 						<ul class='dropdown-menu'>
-							<li><a href='/profile'><span class='glyphicon glyphicon-user'></span> View My Profile</a></li>
+							<li><a href='/users/profile'><span class='glyphicon glyphicon-user'></span> View My Profile</a></li>
 							<li class='divider'></li>
-							<li><a href='/yap'><span class='glyphicon glyphicon-comment'></span> Yap</a></li>
+							<li><a href='/posts/add'><span class='glyphicon glyphicon-comment'></span> Yap</a></li>
 							<li class='divider'></li>
 							<li><a href='/posts'><span class='glyphicon glyphicon-th-list'></span> Yapper Feed</a></li>
 							<li class='divider'></li>
-							<li><a href='/users'><span class='glyphicon glyphicon-link'></span> Connect</a></li>
+							<li><a href='/posts/users'><span class='glyphicon glyphicon-link'></span> Connect</a></li>
 					
 						</ul>
 					</li>
@@ -78,7 +78,7 @@
 					<?php else: ?>
 					<!-- Menu for users who are not logged in -->
 					<li><a href='/'>Home/Login</a></li>
-					<li><a href='/signup'>Register</a></li>					
+					<li><a href='/users/signup'>Register</a></li>					
 					<?php endif; ?>				
 				</ul>
 			</div>
@@ -104,7 +104,7 @@
 	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 	<script src='https://code.jquery.com/jquery.js'></script>
 	<!-- Include all compiled plugins (below), or include individual files as needed -->
-	<script src='js/bootstrap.min.js'></script>
+	<script src='/js/bootstrap.min.js'></script>
 </body>
 
 </html>
