@@ -37,7 +37,7 @@
 
 <body>
 	<!-- fixed navbar -->
-	<div class='navbar navbar-inverse navbar-fixed-top'>
+	<nav class='navbar navbar-inverse navbar-fixed-top' role='navigation'>
 		<div class='container'>
 			<div class='navbar-header'>
 			
@@ -83,7 +83,7 @@
 				</ul>
 			</div>
 		</div>
-	</div>
+	</nav>
 
 
 	<div class='container'>
