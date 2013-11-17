@@ -21,17 +21,16 @@
 							
 							Retype Password<span class='error'>*</span><br>
 							<input type='password' name='retype' class='form-control input-lg'>
+							<br>
 					
 							<!-- checks to see if error isset. If so, echo specific error. -->		
 							<?php if(isset($error)): ?>
-								<div class='error'>
+								<div class='alert alert-danger'>
 									Sign up failed.<br>
 									<?php echo $error; ?>
 								</div>
 							<?php endif; ?>  
 								
-						
-							<br>
 							<input type='submit' class='btn btn-primary' value='Submit' >
 
 						</form>

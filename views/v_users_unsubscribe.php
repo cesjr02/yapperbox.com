@@ -18,7 +18,7 @@
 
 				<!-- checks to see if error isset. If so, echo specific error. -->
 				<?php if(isset($error)): ?>
-					<div class='error'>
+					<div class='alert alert-danger'>
 						Please enter a valid password.<br>
 					</div>
 				<?php endif; ?>
