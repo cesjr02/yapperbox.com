@@ -3,6 +3,13 @@ body {
 	margin-top: 170px;
 }
 
+hr {
+	margin-top: 0;
+}
+
+
+/* text */
+
 .h1 {
 	font-size: 63px;
 	font-weight: 300;
@@ -31,7 +38,6 @@ h4 {
 	font-size: 12px;
 }
 
-
 .datetime {
 	font-size: 12px;
 	font-weight: 600;
@@ -43,21 +49,12 @@ h4 {
 	font-weight: 300;
 }
 
-hr {
-	margin-top: 0;
+.error {
+	color: red;
 }
 
-.btn-primary {
 
-}
-
-.main-info-graphic {
-
-}
-
-.logo {
-
-}
+/* images */
 
 .avatar {
 	border-style: solid;
@@ -66,9 +63,8 @@ hr {
 	margin: 20px 0px 0px;
 }
 
-.error {
-	color: red;
-}
+
+/* layout */
 
 .navbar-inverse {
 	background-color: #3c3c3c;
