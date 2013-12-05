@@ -89,7 +89,6 @@
 	<div class='container'>
 		<div class='row'>
 			<?php if(isset($content)) echo $content; ?>
-			<?php if(isset($client_files_body)) echo $client_files_body; ?>	 
 		</div><!-- end of row -->
 	</div><!-- end of container -->
 
@@ -105,6 +104,7 @@
 	<script src='https://code.jquery.com/jquery.js'></script>
 	<!-- Include all compiled plugins (below), or include individual files as needed -->
 	<script src='/js/bootstrap.min.js'></script>
+	<?php if(isset($client_files_body)) echo $client_files_body; ?>
 </body>
 
 </html>

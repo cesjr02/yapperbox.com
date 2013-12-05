@@ -20,6 +20,14 @@ class posts_controller extends base_controller {
 		// setup view
 		$this->template->content = View::instance('v_posts_add');
 		$this->template->title   = "New Yap";
+		
+		// load js files
+		$client_files_body = Array(
+			"/js/jquery.form.js",
+			"/js/posts_add.js"
+		);
+		
+		$this->template->client_files_body = Utils::load_client_files($client_files_body);
 
 		// render template
 		echo $this->template;
@@ -43,15 +51,11 @@ class posts_controller extends base_controller {
 		// Note we didn't have to sanitize any of the $_POST data because we're using the insert method which does it for us
 		DB::instance(DB_NAME)->insert('posts', $_POST);
 
-		// quick and dirty feedback
-		//  echo "Your post has been added. <a href='/posts/add'>Add another</a>";
-
-		// setup view
-		$this->template->content = View::instance('v_posts_p_add');
-		$this->template->title   = "Yap Added";
-
-		// render view
-		echo $this->template;
+		$view = new View('v_posts_p_add');
+		
+		$view->created = Time::display(Time::now());
+		
+		echo $view;
 
 	} 
 

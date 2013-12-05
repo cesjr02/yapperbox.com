@@ -1,8 +1,4 @@
-<div class='col-md-6 col-md-offset-3'>
-
 <!-- confirms post has been added -->
-<h2 class='h2'>Yap Added</h2>
+Your yap was created on <?=$created?>
 
 <p>Click <a href='/posts/add'>here</a> to add another.</p>
-
-</div><!-- end of col -->

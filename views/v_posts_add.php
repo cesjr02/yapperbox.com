@@ -9,4 +9,8 @@
 		<input type='submit' class='btn btn-primary' value='Yap'>
 		
 	</form>
+	
+	<!-- Ajax results will go here -->
+	<div id='results'></div>
+	
 </div><!-- end of col -->
