@@ -1,4 +1,4 @@
-<div class='col-md-6'>
+<div class='col-md-8'>
 	<!-- If User is logged in -->
 	<?php if($user): ?>
 		<h1 class='h1'>Hello,  <?php if($user): ?><?php echo $user->first_name; ?><?php endif; ?>.</h1>
@@ -14,8 +14,10 @@
 						
 </div>
 
-<div class='col-md-6'>
-	<?=$loginContent;?>
+<div class='col-md-4'>
+	<?php if($user): ?><h2 class='h2'>Member <?php echo "<a href='/users/logout/'><button type='button' class='btn btn-primary'>Sign out</button></a>"; ?></h2>
+	<?php else: ?><?=$loginContent;?>
+	<?php endif; ?>
 </div>
 
 
