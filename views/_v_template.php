@@ -73,7 +73,7 @@
 						</ul>
 					</li>
 						
-						<li><a href='/users/logout/'>Sign out</a></li>
+						<li><a href='/users/logout/'>Log out</a></li>
 						
 					<?php else: ?>
 					<!-- Menu for users who are not logged in -->

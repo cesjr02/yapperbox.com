@@ -1,4 +1,4 @@
-<h2 class='h2'>Member Login</h2>	
+<h2 class='h2'>Log in</h2>	
 <!-- form for user login -->	
 <form method='POST' action='/users/p_login'>
 			
@@ -18,6 +18,6 @@
 		<br>
 	<?php endif; ?>
 				
-	<input type='submit' value='Sign in' class='btn btn-primary'>
+	<input type='submit' value='Log in' class='btn btn-primary'>
 			
 </form>
