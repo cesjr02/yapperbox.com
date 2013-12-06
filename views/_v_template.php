@@ -73,11 +73,11 @@
 						</ul>
 					</li>
 						
-						<li><a href='/users/logout/'>Log out</a></li>
+						<li><a href='/users/logout/'>Sign out</a></li>
 						
 					<?php else: ?>
 					<!-- Menu for users who are not logged in -->
-					<li><a href='/'>Home/Login</a></li>
+					<li><a href='/'>Home</a></li>
 					<li><a href='/users/signup'>Register</a></li>					
 					<?php endif; ?>				
 				</ul>
