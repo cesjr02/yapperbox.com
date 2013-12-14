@@ -3,7 +3,7 @@
 class posts_controller extends base_controller {
 
 	public function __construct() {
-		parent::__construct();
+	parent::__construct();
 
 		// make sure user is logged in if they want to use anything in this controller
 		if(!$this->user) {

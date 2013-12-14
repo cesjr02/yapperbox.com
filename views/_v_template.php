@@ -4,6 +4,7 @@
 <head>
 	<title><?php if(isset($title)) echo $title; ?></title>
 	<meta name='viewport' content='width=device-width, initial-scale=1.0'>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 	
 	<!-- Bookmark Icon -->
 	<link rel='icon' type='image/png' href='images/bookmark-icon/myicon.png' />
