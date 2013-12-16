@@ -12,7 +12,7 @@
 		
 	<!-- shows error if login failed -->		
 	<?php if(isset($error)): ?>
-		<div class='error'>
+		<div class='alert alert-danger'>
 			Signin failed. Please double check your email and password.
 		</div>
 		<br>
