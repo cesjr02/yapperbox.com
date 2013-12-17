@@ -5,23 +5,30 @@
 						<!-- form for signup -->
 						<form method='POST' action='/users/p_signup'>
 		
-							First Name<span class='error'>*</span><br>
-							<input type='text' name='first_name' class='form-control input-lg' value='<?php if(isset($_POST['first_name'])) echo $_POST['first_name']?>'><br>
+							<div class='form-group'>
+								First Name<span class='error'>*</span><br>
+								<input type='text' name='first_name' class='form-control input-lg' value='<?php if(isset($_POST['first_name'])) echo $_POST['first_name']?>'>
+							</div>
 					
-							Last Name<span class='error'>*</span><br>
-							<input type='text' name='last_name' class='form-control input-lg' value='<?php if(isset($_POST['last_name'])) echo $_POST['last_name']?>'><br>
+							<div class='form-group'>
+								Last Name<span class='error'>*</span><br>
+								<input type='text' name='last_name' class='form-control input-lg' value='<?php if(isset($_POST['last_name'])) echo $_POST['last_name']?>'>
+							</div>
 					
-							Email<span class='error'>*</span><br>
-							<input type='text' name='email' class='form-control input-lg' value='<?php if(isset($_POST['email'])) echo $_POST['email']?>'><br>
+							<div class='form-group'>
+								Email<span class='error'>*</span><br>
+								<input type='text' name='email' class='form-control input-lg' value='<?php if(isset($_POST['email'])) echo $_POST['email']?>'>
+							</div>
 						
-								
-							Password<span class='error'>*</span><br>
-							<input type='password' name='password' class='form-control input-lg'>
-							<br>
+							<div class='form-group'>	
+								Password<span class='error'>*</span><br>
+								<input type='password' name='password' class='form-control input-lg'>
+							</div>
 							
-							Retype Password<span class='error'>*</span><br>
-							<input type='password' name='retype' class='form-control input-lg'>
-							<br>
+							<div class='form-group'>
+								Retype Password<span class='error'>*</span><br>
+								<input type='password' name='retype' class='form-control input-lg'>
+							</div>
 					
 							<!-- checks to see if error isset. If so, echo specific error. -->		
 							<?php if(isset($error)): ?>
